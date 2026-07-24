@@ -1,0 +1,4 @@
+dataset,rows_input,missing_customer_id_dropped,rows_output,duplicate_order_ids_dropped,invalid_order_amount_dropped,invalid_quantity_replaced,invalid_discount_replaced,invalid_created_or_resolved_dates,invalid_satisfaction_score_replaced
+customers,120,0,120,,,,,,
+orders,180,1,173,2.0,4.0,2.0,1.0,,
+tickets,160,1,159,,,,,23.0,2.0
